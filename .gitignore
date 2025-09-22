@@ -1,0 +1,36 @@
+# --- Node & npm ---
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+package-lock.json
+
+# --- Build outputs ---
+dist/
+build/
+*.tsbuildinfo
+
+# --- Environment / secrets ---
+.env
+.env.*.local
+
+# --- Logs & coverage ---
+logs/
+*.log
+*.pid
+*.seed
+*.pid.lock
+coverage/
+.nyc_output/
+
+# --- Editor / OS files ---
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+
+# --- VS Code settings (if you don’t want to share workspace settings) ---
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
